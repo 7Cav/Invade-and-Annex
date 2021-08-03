@@ -1,0 +1,82 @@
+/*
+Grab data:
+Mission: HQ%2016%20QS%20Altis
+World: Altis
+Anchor position: [23466.7, 17938.7]
+Area size: 75
+Using orientation of objects: no
+*/
+
+[
+	["Flag_White_F",[-0.146484,6.37305,0],0,[],false,true,false,{
+				missionNamespace setVariable ['QS_AO_HQ_flag',(_this select 0),FALSE];
+				(_this select 0);
+			}],
+	["Land_HBarrier_3_F",[5.90234,-7.82617,0],142.973,[],false,false,true,{}],
+	["Land_Cargo_HQ_V3_F",[-4.38281,10.3594,0],235.817,[],false,true,false,{}],
+	["Land_Tyres_F",[-2.8418,-12.2637,2.38419e-007],329.803,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[6.47266,-11.1348,0],238.065,[],false,false,true,{}],
+	["Land_Wreck_Hunter_F",[0.0429688,-13.0781,-2.38419e-007],6.38326,[],false,false,true,{}],
+	["Land_MetalBarrel_F",[2.68164,-13.0996,1.43051e-006],359.998,[],false,false,true,{}],
+	["Land_MetalBarrel_empty_F",[2.42383,-13.8789,0],293.315,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[14.4961,-2.10547,0],150.303,[],false,false,true,{}],
+	["Land_PowerGenerator_F",[1.86719,14.5605,0],145.992,[],false,false,true,{}],
+	["Land_BarrelEmpty_grey_F",[2.47852,-14.6406,1.90735e-006],359.997,[],false,false,true,{}],
+	["Land_TTowerSmall_1_F",[0.806641,14.8457,0],181.261,[],false,true,false,{}],
+	["CargoNet_01_barrels_F",[-12.9121,8.13672,0],146.432,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[15.8203,0.640625,0],263.739,[],false,false,true,{}],
+	["Land_PortableLight_double_F",[-0.185547,16.3379,0],251.432,[],false,true,false,{}],
+	["Land_PaperBox_closed_F",[-15.7637,5.60156,0],146.734,[],false,false,true,{}],
+	["Land_WaterTank_F",[-13.5859,9.8457,2.21729e-005],145.527,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[-9.27734,-14.0352,0],355.416,[],false,false,true,{}],
+	["Land_Pallet_MilBoxes_F",[0.974609,16.8906,0],0,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[8.54883,-15.1367,0],142.973,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[-1.90234,-17.5957,0],58.1719,[],false,false,true,{}],
+	["Land_Sign_WarningMilitaryArea_F",[9.26758,-15.248,0],325.372,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[16.2148,7.60352,0],283.105,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[5.71875,-17.3984,0],140.473,[],false,false,true,{}],
+	["Land_WaterTank_F",[-14.7051,11.5273,-9.03606e-005],145.554,[],false,false,true,{}],
+	["Land_PaperBox_open_empty_F",[-17.4551,6.90234,0],0,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[18.6895,-4.59961,0],236.247,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[0.388672,19.6523,0],146.744,[],false,false,true,{}],
+	["Land_TTowerSmall_2_F",[-14.3926,13.5,4.76837e-007],0,[],false,true,false,{}],
+	["Land_PaperBox_open_full_F",[-18.9961,5.63672,0],131.754,[],false,false,true,{}],
+	["Land_Loudspeakers_F",[19.6387,-4.08594,0],344.391,[],false,false,true,{}],
+	["Land_PortableLight_double_F",[-1.9707,-20.0879,0],115.948,[],false,true,false,{}],
+	["Land_HBarrier_3_F",[17.7051,9.76367,0],324.892,[],false,false,true,{}],
+	["Land_PortableLight_double_F",[-16.7168,11.3926,0],334.103,[],false,true,false,{}],
+	["Land_ToiletBox_F",[17.0137,11.043,-0.000930309],56.2871,[],false,true,false,{}],
+	["Land_ToiletBox_F",[16.2598,12.166,-4.29153e-006],58.1017,[],false,true,false,{}],
+	["Land_HBarrierBig_F",[0.234375,-20.7051,0],332.661,[],false,false,true,{}],
+	["Land_Cargo_Patrol_V3_F",[20.5645,2.77539,0],270.74,[],false,true,false,{}],
+	["Land_PortableLight_double_F",[15.5566,14.5,0],33.0659,[],false,true,false,{}],
+	["Land_Pallet_MilBoxes_F",[-1.75391,21.3555,0],0,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[-12.1777,17.9121,0],326.712,[],false,false,true,{}],
+	["Land_HBarrierWall6_F",[-18.0371,11.9961,0],326.352,[],false,false,true,{}],
+	["Land_Mil_WallBig_4m_F",[-13.9492,16.7676,0],145.28,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[-21.5977,-3.04688,0],178.884,[],false,false,true,{}],
+	["Land_Mil_WallBig_4m_F",[-10.6895,19.043,0],145.28,[],false,false,true,{}],
+	["Land_Mil_WallBig_4m_F",[-20.9551,7.58789,0],7.41547,[],false,false,true,{}],
+	["Land_Cargo_Patrol_V3_F",[-8.98438,-20.6035,0],0,[],false,true,false,{}],
+	["Land_Mil_WallBig_4m_F",[-7.40234,21.3281,0],145.28,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[22.5664,-3.01367,0],114.161,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[18.9199,12.9961,0],54.438,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[-16.7773,-15.6699,0],337.902,[],false,false,true,{}],
+	["Land_Cargo20_military_green_F",[5.38281,22.4336,4.76837e-007],280.929,[],false,true,false,{}],
+	["Land_HBarrierBig_F",[-5.30273,22.748,0],326.762,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[21.709,8.98438,0],56.3178,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[15.668,17.7402,0],52.9318,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[-19.5957,-13.4492,0],53.426,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[-5.43359,-23.2832,0],170.229,[],false,false,true,{}],
+	["Land_Mil_WallBig_4m_F",[-4.11523,23.6035,0],145.28,[],false,false,true,{}],
+	["Land_HBarrier_5_F",[24.1777,3.11719,0],88.5175,[],false,false,true,{}],
+	["Land_Cargo_Patrol_V3_F",[-23.0527,4.28516,0],99.4177,[],false,true,false,{}], 
+	["Land_HBarrierBig_F",[-14.6992,-19.9785,0],236.203,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[-8.68555,-23.7559,0],172.274,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[-24.6035,7.32227,0],300.922,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[-25.9316,0.205078,0],264.195,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[-11.3379,-23.5781,0],194.332,[],false,false,true,{}],
+	["Land_HBarrierWall6_F",[2.14844,26.4629,0],326.352,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[10.3086,24.9922,0],231.707,[],false,false,true,{}],
+	["Land_HBarrierBig_F",[7.35352,28.4707,0],51.5146,[],false,false,true,{}]
+]

@@ -1,0 +1,80 @@
+/*
+Grab data:
+Mission: HQAltisAlxQS_19
+World: Altis
+Anchor position: [23405.4, 17899]
+Area size: 75
+Using orientation of objects: no
+*/
+
+[
+	["Land_PaperBox_closed_F",[-1.87109,-7.91992,0],130.427,[],false,false,true,{}],
+	["Land_BagBunker_Large_F",[8.17578,2.19141,0],145.679,[],false,true,false,{}],
+	["Flag_White_F",[8.6875,-2.57813,0],0,[],false,true,false,{
+			missionNamespace setVariable ['QS_AO_HQ_flag',(_this select 0),FALSE];
+			(_this select 0);
+		}],
+	["Land_PaperBox_closed_F",[-0.486328,-9.3457,0],275.329,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[-2.14648,-9.82617,0],0,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[9.54688,-3.31445,0],236.436,[],false,false,true,{}],
+	["Campfire_burning_F",[-0.144531,10.1973,0],0,[],false,true,false,{}],
+	["Land_LuggageHeap_04_F",[-8.83594,7.19922,0],213.762,[],false,false,true,{}],
+	["Land_WoodenCrate_01_stack_x3_F",[-11.7305,4.23828,0],202.19,[],false,false,true,{}],
+	["Land_BagFence_Round_F",[11.459,-5.20898,0],16.7078,[],false,false,true,{}],
+	["Land_GarbageHeap_04_F",[-9.07617,8.83594,0],314.24,[],false,false,true,{}],
+	["Land_Cargo_House_V2_F",[-10.998,-7.71484,0],269.566,[],false,true,false,{}],
+	["Land_LampShabby_F",[-9.92188,-9.14844,2.38419e-007],60.6296,[],false,true,false,{}],
+	["Land_PillboxBunker_01_rectangle_F",[-12.9141,3.98633,0],0,[],false,true,false,{(_this select 0) setVectorUp [0,0,1];(_this select 0);}],
+	["Land_WoodenCrate_01_stack_x5_F",[-3.10742,13.6055,2.38419e-007],0,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[14.0313,-0.314453,0],236.436,[],false,false,true,{}],
+	["Land_WoodenCrate_01_F",[2.0332,14.375,-4.76837e-007],92.8018,[],false,false,true,{}],
+	["Land_WoodenCrate_01_stack_x3_F",[-1.46094,14.6426,0],78.6114,[],false,false,true,{}],
+	["Land_BagFence_Round_F",[15.0352,-2.73438,0],271.929,[],false,false,true,{}],
+	["Land_WoodenCrate_01_F",[8.74414,-12.9824,0],92.7294,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_round_F",[-16.0762,-2.57422,0],269.808,[],false,false,true,{}],
+	["Land_WoodenCrate_01_stack_x5_F",[10.3652,-13.0645,2.38419e-007],282.581,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[-14.1191,8.99023,0],93.2553,[],false,false,true,{}],
+	["Land_Sign_WarningMilitaryArea_F",[-16.8047,2.01367,0],90.0357,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[-8.47461,-15.0684,0],206.129,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[-9.56641,-14.4902,0],206.129,[],false,false,true,{}],
+	["Land_BagFence_Short_F",[-13.8516,11.2051,0],104.07,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_round_F",[-16.0371,-8.29297,0],269.937,[],false,false,true,{}],
+	["Land_WaterTank_F",[7.94141,16.3672,1.81198e-005],1.90463e-005,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_round_F",[-13.5469,-12.2129,0],206.14,[],false,false,true,{}],
+	["Land_BagFence_Short_F",[-13.2773,12.7246,0],117.844,[],false,false,true,{}],
+	["Land_PillboxBunker_01_big_F",[-3.24414,-18.7695,0],202.365,[],false,true,false,{(_this select 0) setVectorUp [0,0,1];(_this select 0);}],
+	["Land_BagBunker_Small_F",[-11.8984,15.3555,0],126.779,[],false,true,false,{}],
+	["Land_BagFence_Long_F",[-9.17969,17.125,0],309.208,[],false,false,true,{}],
+	["Land_WaterBarrel_F",[7.92383,17.7715,0],360,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_round_F",[5.76367,-19.4043,0],0,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[14.6641,14.543,0],275.095,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[13.2793,15.9395,0],130.345,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[-3.06641,20.873,0],163.301,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[-0.251953,21.8203,0],343.354,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_round_F",[11.5762,-19.4063,0],0,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[2.55469,22.625,0],343.354,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[22.291,-5.00391,0],130.345,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[19.9023,11.4629,2.78],236.436,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[21.9688,-6.92969,0],0,[],false,false,true,{}],
+	["Land_GarbageContainer_closed_F",[22.0215,7.05664,1.43051e-006],152.103,[],false,false,true,{}],
+	["Land_BagFence_Short_F",[20.9082,10.0293,2.78],235.293,[],false,false,true,{}],
+	["Land_Boat_05_wreck_F",[-0.03125,23.7363,0],247.431,[],false,false,true,{}],
+	["Land_PaperBox_closed_F",[23.6758,-6.40039,0],275.095,[],false,false,true,{}],
+	["Land_BagBunker_Tower_F",[20.8926,12.8906,0],145.94,[],false,true,false,{}],
+	["Land_BagFence_Long_F",[22.6191,10.2246,2.78],328.095,[],false,false,true,{}],
+	["Land_HBarrierWall_corridor_F",[16.3379,-18.7383,0],85.483,[],false,false,true,{}],
+	["Land_BagFence_Long_F",[22.4063,13.0508,2.78],236.436,[],false,false,true,{}],
+	["Land_BagFence_Short_F",[23.3301,11.7012,2.78],235.293,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[19.8203,-17.3691,0],166.259,[],false,false,true,{}],
+	["Land_PillboxBunker_01_big_F",[15.8242,22.6719,0],23.1875,[],false,true,false,{(_this select 0) setVectorUp [0,0,1];(_this select 0);}],
+	["Land_PillboxWall_01_3m_round_F",[20.0488,19.5488,0],211.555,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_F",[22.9219,16.2324,0],235.282,[],false,false,true,{}],
+	["Land_PillboxWall_01_6m_F",[25.8008,11.3008,0],246.921,[],false,false,true,{}],
+	["Land_HBarrier_Big_F",[24.4746,-15.5645,0],157.423,[],false,false,true,{}],
+	["Land_BagFence_Round_F",[28.2266,8.94336,0],187.65,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[27.9375,-13.9297,0],151.244,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[32.1973,0.636719,0],226.242,[],false,false,true,{}],
+	["Land_BagFence_Round_F",[32.2891,3.33008,0],268.207,[],false,false,true,{}],
+	["Land_HBarrier_Big_F",[33.002,-4.61523,0],277.168,[],false,false,true,{}],
+	["Land_HBarrier_3_F",[32.7578,-8.67969,0],100.338,[],false,false,true,{}]
+]
